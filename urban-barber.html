@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Barber — Coiffeur</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #111;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            border-bottom: 1px solid #292929;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 110px 20px;
+            background: #181818;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #aaa;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 28px;
+            background: #6c63ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 38px;
+            margin-bottom: 45px;
+        }
+
+        .services {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            width: 280px;
+            padding: 30px;
+            background: #1b1b1b;
+            border: 1px solid #292929;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .service .emoji {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        .service h3 {
+            margin-bottom: 12px;
+        }
+
+        .service p {
+            color: #aaa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px;
+            background: #080808;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">💈 Urban Barber</div>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Votre style.<br>Votre identité.</h1>
+
+    <p>
+        Une coupe précise, un style personnalisé
+        et une expérience pensée pour vous.
+    </p>
+
+    <a href="#services" class="button">
+        Découvrir nos services →
+    </a>
+
+</section>
+
+<section id="services">
+
+    <h2 class="title">Nos services</h2>
+
+    <div class="services">
+
+        <div class="service">
+            <div class="emoji">✂️</div>
+            <h3>Coupe classique</h3>
+            <p>Une coupe propre et soignée adaptée à votre style.</p>
+            <strong>20 €</strong>
+        </div>
+
+        <div class="service">
+            <div class="emoji">💈</div>
+            <h3>Coupe + barbe</h3>
+            <p>Coupe et entretien de la barbe pour un look complet.</p>
+            <strong>30 €</strong>
+        </div>
+
+        <div class="service">
+            <div class="emoji">✨</div>
+            <h3>Style premium</h3>
+            <p>Une prestation complète avec conseils personnalisés.</p>
+            <strong>40 €</strong>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2 class="title">Prendre rendez-vous</h2>
+
+    <div style="text-align:center;">
+
+        <p style="color:#aaa;">
+            📍 25 rue du Style
+        </p>
+
+        <p style="color:#aaa; margin-top:10px;">
+            📞 01 23 45 67 89
+        </p>
+
+        <a href="#" class="button">
+            Prendre rendez-vous →
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Urban Barber — Site démo créé par Nexus Studio
+
+</footer>
+
+</body>
+</html>

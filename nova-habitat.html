@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nova Habitat — Immobilier</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f7f7f7;
+            color: #222;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            background: white;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #222;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 110px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #666;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 28px;
+            background: #6c63ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 38px;
+            margin-bottom: 45px;
+        }
+
+        .properties {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .property {
+            width: 300px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid #e5e5e5;
+        }
+
+        .property-image {
+            height: 170px;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+
+        .property-content {
+            padding: 25px;
+        }
+
+        .property-content h3 {
+            margin-bottom: 10px;
+        }
+
+        .property-content p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .price {
+            margin-top: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px;
+            background: #111;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">🏠 Nova Habitat</div>
+
+    <nav>
+        <a href="#biens">Nos biens</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Votre futur commence ici.</h1>
+
+    <p>
+        Découvrez des biens sélectionnés pour vous
+        accompagner dans votre prochain projet immobilier.
+    </p>
+
+    <a href="#biens" class="button">
+        Découvrir nos biens →
+    </a>
+
+</section>
+
+<section id="biens">
+
+    <h2 class="title">Nos biens</h2>
+
+    <div class="properties">
+
+        <div class="property">
+
+            <div class="property-image">
+                🏡
+            </div>
+
+            <div class="property-content">
+
+                <h3>Maison familiale</h3>
+
+                <p>
+                    4 pièces · 3 chambres · Jardin
+                </p>
+
+                <div class="price">
+                    285 000 €
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="property">
+
+            <div class="property-image">
+                🏢
+            </div>
+
+            <div class="property-content">
+
+                <h3>Appartement moderne</h3>
+
+                <p>
+                    3 pièces · 2 chambres · Balcon
+                </p>
+
+                <div class="price">
+                    210 000 €
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="property">
+
+            <div class="property-image">
+                🌳
+            </div>
+
+            <div class="property-content">
+
+                <h3>Maison avec terrain</h3>
+
+                <p>
+                    5 pièces · 4 chambres · Grand terrain
+                </p>
+
+                <div class="price">
+                    340 000 €
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2 class="title">Parlons de votre projet</h2>
+
+    <div style="text-align:center;">
+
+        <p style="color:#666;">
+            Vous recherchez un bien immobilier ?
+        </p>
+
+        <a href="#" class="button">
+            Nous contacter →
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Nova Habitat — Site démo créé par Nexus Studio
+
+</footer>
+
+</body>
+</html>
